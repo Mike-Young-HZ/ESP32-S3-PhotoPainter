@@ -32,11 +32,19 @@ class waveshare_PhotoPainter : public WifiBoard {
 
     void InitializeTools() {
         auto &mcp_server = McpServer::GetInstance();
-        mcp_server.AddTool("self.disp.SwitchPictures", "切换本地或 SD 卡中的图片，通过整数参数指定图片序号（如 “显示第 1 张图片”）", PropertyList({Property("value", kPropertyTypeInteger, 1, sdcard_bmp_Quantity)}), [this](const PropertyList &properties) -> ReturnValue {
+        mcp_server.AddTool("self.disp.refreshWeather", "仅当用户明确要求刷新天气、更新天气或显示天气预报时调用。用户仅说刷新图片、刷新屏幕、换图片时禁止调用本工具；意图不明确先询问。此工具联网更新天气。异步返回仅表示排队，禁止声称天气或图片已经刷新完成。", PropertyList(), [this](const PropertyList &) -> ReturnValue {
+            if (epaper_groups == nullptr || ai_IMG_LoopGroup == nullptr) {
+                return std::string("not_ready: 天气刷新任务未就绪，未提交请求。");
+            }
+            xEventGroupClearBits(ai_IMG_LoopGroup, 0x01);
+            xEventGroupSetBits(epaper_groups, 0x01);
+            return std::string("queued: 已提交天气刷新请求，尚未完成。只能回复已提交，不能声称天气或图片已刷新完成。");
+        });
+        mcp_server.AddTool("self.disp.SwitchPictures", "切换本地或 SD 卡中的图片，通过整数参数指定图片序号（如 “显示第 1 张图片”）。用户仅说刷新图片且未指定序号时，先询问是显示哪张已有图片还是生成新图片；本版本没有重刷当前画面的独立工具。异步返回只表示已提交，不代表显示完成。", PropertyList({Property("value", kPropertyTypeInteger, 1, sdcard_bmp_Quantity)}), [this](const PropertyList &properties) -> ReturnValue {
             int value = properties["value"].value<int>();
             sdcard_doc_count = value;
             xEventGroupSetBits(epaper_groups, 0x02);        //  0000  0010
-            return true;
+            return std::string("queued: 已提交指定图片显示请求，尚未完成，请勿回复显示完成。");
         });
 
         mcp_server.AddTool("self.disp.getNumberimages", "获取 SD 卡中存储的图片文件总数，无输入参数，返回整数类型的图片数量", PropertyList(), [this](const PropertyList &) -> ReturnValue {
@@ -48,14 +56,14 @@ class waveshare_PhotoPainter : public WifiBoard {
             }
         });
 
-        mcp_server.AddTool("self.disp.aiIMG", "这个是用户可以根据语音生成图片的(图片生成大概需要10-20s时间),比如：帮我生成一张动漫图片,直接生成就好，不要回复乱七八糟的东西", PropertyList(), [this](const PropertyList &) -> ReturnValue {
+        mcp_server.AddTool("self.disp.aiIMG", "仅在用户明确要求生成或画一张新图片时调用；刷新当前图片或天气不得调用。根据用户语音描述，使用 Seedream 5.0 Flash 生成 1280x720 图片，再缩放并六色抖动显示到相框。比如：帮我生成一张动漫图片。生成和刷屏异步进行，返回仅表示请求已提交。", PropertyList(), [this](const PropertyList &) -> ReturnValue {
             ESP_LOGI("MCP", "进入MCP aiIMG");
             if (!is_ai_img) { //Indicates that the image is being refreshed
                 ESP_LOGE("MCP", "is_ai_img fill %d", is_ai_img);
-                return false;
+                return std::string("busy: 屏幕正在刷新，未提交生图请求。");
             }
             xEventGroupSetBits(ai_IMG_Group, 0x01);         //Indicates that access to the volcano is permitted to obtain IMG.
-            return true;
+            return std::string("queued: 已提交图片生成请求，生成和刷屏尚未完成，不能声称图片已生成或显示成功。");
         });
 
         mcp_server.AddTool("self.disp.imgloop", "进入轮询播放图片模式,循环sd卡里面的图片", PropertyList(), [this](const PropertyList &) -> ReturnValue {

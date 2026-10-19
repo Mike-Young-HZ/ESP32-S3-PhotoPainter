@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+get_filename_component(PHOTOPAINTER_ROOT "${CMAKE_CURRENT_LIST_DIR}/../.." ABSOLUTE)
+set(EXTRA_COMPONENT_DIRS "${PHOTOPAINTER_ROOT}/main" "${PHOTOPAINTER_ROOT}/components")
+set(SDKCONFIG "${PHOTOPAINTER_ROOT}/sdkconfig")
+set(SDKCONFIG_DEFAULTS "${PHOTOPAINTER_ROOT}/sdkconfig.defaults;${PHOTOPAINTER_ROOT}/sdkconfig.defaults.esp32s3")
+include("${PHOTOPAINTER_ROOT}/CMakeLists.txt")
+project(xiaozhi)

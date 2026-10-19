@@ -1,0 +1,322 @@
+[
+  {
+    "path": "components/app_bsp/ai_app.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/ai_app.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/client_app.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/client_app.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/imgdecode_app.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/imgdecode_app.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/server_app.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/server_app.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/weather_app.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/weather_app.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/codec_board/cfg_parse.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/codec_board/codec_board.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/codec_board/codec_init.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/codec_board/dummy_codec.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/codec_board/dummy_codec.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/codec_board/lcd_init.c",
+    "unchanged": false
+  },
+  {
+    "path": "components/pmicpower/power_bsp.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/power_bsp.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/button_bsp.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/button_bsp.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/codec_bsp.cpp",
+    "unchanged": false
+  },
+  {
+    "path": "components/port_bsp/codec_bsp.h",
+    "unchanged": false
+  },
+  {
+    "path": "components/port_bsp/display_bsp.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/display_bsp.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/i2c_bsp.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/i2c_bsp.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/i2c_equipment.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/i2c_equipment.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/led_bsp.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/led_bsp.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/sdcard_bsp.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/sdcard_bsp.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/traverse_nvs.cpp",
+    "unchanged": false
+  },
+  {
+    "path": "components/port_bsp/traverse_nvs.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/user_app_bsp/user_app.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/user_app_bsp/user_app.h",
+    "unchanged": false
+  },
+  {
+    "path": "components/user_app_bsp/mode_src/Basic_mode.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/user_app_bsp/mode_src/Mode_Selection.cpp",
+    "unchanged": false
+  },
+  {
+    "path": "components/user_app_bsp/mode_src/Network_mode.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/user_app_bsp/mode_src/xiaozhi_mode.cpp",
+    "unchanged": false
+  },
+  {
+    "path": "components/port_bsp/src/fonts/font14CN.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/src/fonts/font18CN.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/src/fonts/font22CN.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/src/fonts/font24.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/src/fonts/fonts.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/src/multi_button/multi_button.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/port_bsp/src/multi_button/multi_button.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/PowerDeliveryHUSB238.hpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/PowersBQ25896.tpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/PowersSY6970.tpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/XPowersAXP192.tpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/XPowersAXP202.tpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/XPowersAXP2101.tpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/XPowersCommon.tpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/XPowersLib.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/XPowersLibInterface.cpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/XPowersLibInterface.hpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/XPowersLib_Version.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/XPowersParams.hpp",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/REG/AXP192Constants.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/REG/AXP202Constants.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/REG/AXP2101Constants.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/REG/AXP216Constants.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/REG/BQ25896Constants.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/REG/GeneralPPMConstants.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/REG/HUSB238Constants.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/pmicpower/src/REG/SY6970Constants.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/codec_board/drv/tca9554.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/codec_board/drv/tca9554.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/codec_board/include/codec_board.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/codec_board/include/codec_init.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/jpg_src/image_io.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/jpg_src/image_io.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/jpg_src/test_decoder.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/jpg_src/test_decoder.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/json_inc/ArduinoJson.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/list_src/list.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/list_src/list.h",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/list_src/list_iterator.c",
+    "unchanged": true
+  },
+  {
+    "path": "components/app_bsp/list_src/list_node.c",
+    "unchanged": true
+  }
+]

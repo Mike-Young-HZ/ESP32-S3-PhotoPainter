@@ -220,9 +220,10 @@ void BaseAIModel::BaseAIModel_SetChat(const char *str) {
     doc["model"]            = model;
     doc["prompt"]           = str;
     doc["response_format"]  = "url";
-    doc["size"]             = "1280x768";
-    doc["sequential_image_generation"]  = "disabled";     
-    doc["stream"]           = false; 
+    doc["size"]             = "1280x720";
+    doc["output_format"]    = "jpeg"; // Matches sys_ai.jpg and the JPEG decoder.
+    // Seedream 5.0 Flash is single-image/non-streaming. Do not send legacy
+    // group-generation parameters, even with "disabled": Ark rejects them.
     doc["watermark"]        = false; 
     if (serializeJson(doc, ark_request_body, 3 * 1024) > 0) {
         ESP_LOGW("AIModel","Body : %s",ark_request_body);

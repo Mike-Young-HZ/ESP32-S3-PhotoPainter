@@ -1,0 +1,6594 @@
+[
+  {
+    "path": "main\\application.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\application.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\cjson_utils.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\CMakeLists.txt",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\device_state_machine.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\device_state_machine.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\device_state.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\idf_component.yml",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\Kconfig.projbuild",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\mcp_server.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\mcp_server.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\ota.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\ota.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\sdkconfig.rename",
+    "action": "add"
+  },
+  {
+    "path": "main\\settings.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\settings.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\system_info.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\system_info.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\common\\exclamation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\common\\low_battery.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\common\\popup.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\common\\success.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\common\\vibration.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ar-SA\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\bg-BG\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ca-ES\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\cs-CZ\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\da-DK\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\de-DE\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\el-GR\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\en-US\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\es-ES\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fa-IR\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fi-FI\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fil-PH\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\fr-FR\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\he-IL\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hi-IN\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hr-HR\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\hu-HU\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\id-ID\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\it-IT\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ja-JP\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ko-KR\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\mr-IN\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\ms-MY\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nb-NO\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\nl-NL\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pl-PL\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-BR\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\pt-PT\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ro-RO\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\ru-RU\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sk-SK\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sl-SI\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sr-RS\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\0.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\1.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\2.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\3.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\4.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\5.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\6.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\7.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\8.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\9.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\activation.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\err_pin.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\err_reg.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\language.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\upgrade.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\welcome.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\sv-SE\\wificonfig.ogg",
+    "action": "add"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\th-TH\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\tr-TR\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\uk-UA\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\vi-VN\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-CN\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\0.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\1.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\2.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\3.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\4.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\5.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\6.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\7.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\8.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\9.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\activation.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\err_pin.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\err_reg.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\language.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\upgrade.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\welcome.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\assets\\locales\\zh-TW\\wificonfig.ogg",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\audio_codec.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\audio_codec.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\audio_debugger.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\audio_debugger.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\audio_engine.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\audio_service.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\audio_service.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\fixed_queue.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\wake_word.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\box_audio_codec.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\box_audio_codec.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\dummy_audio_codec.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\dummy_audio_codec.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\es8311_audio_codec.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\es8311_audio_codec.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\es8374_audio_codec.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\es8374_audio_codec.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\es8388_audio_codec.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\es8388_audio_codec.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\es8389_audio_codec.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\es8389_audio_codec.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\no_audio_codec.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\codecs\\no_audio_codec.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\demuxer\\ogg_demuxer.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\demuxer\\ogg_demuxer.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\engines\\afe_audio_engine.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\engines\\afe_audio_engine.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\engines\\lite_audio_engine.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\engines\\lite_audio_engine.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\wake_words\\custom_wake_word.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\wake_words\\custom_wake_word.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\wake_words\\esp_wake_word.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\wake_words\\esp_wake_word.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\audio\\wake_words\\wake_word_audio_cache.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\audio\\wake_words\\wake_word_audio_cache.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3\\atk_dnesp32s3.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box\\atk_dnesp32s3_box.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box0\\atk_dnesp32s3_box0.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box0\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box0\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box0\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box2-4g\\atk_dnesp32s3_box2.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box2-4g\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box2-4g\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box2-4g\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box2-wifi\\atk_dnesp32s3_box2.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box2-wifi\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box2-wifi\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box2-wifi\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box3\\atk_dnesp32s3_box3.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3-box3\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3m-4g\\atk_dnesp32s3m.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3m-4g\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3m-4g\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3m-wifi\\atk_dnesp32s3m.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3m-wifi\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\alientek\\atk-dnesp32s3m-wifi\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\bread-compact-esp32\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-esp32\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-esp32\\esp32_bread_board.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-esp32\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-esp32-lcd\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-esp32-lcd\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-esp32-lcd\\esp32_bread_board_lcd.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-ml307\\compact_ml307_board.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-ml307\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-ml307\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-nt26\\compact_nt26_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\bread-compact-nt26\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\bread-compact-nt26\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\bread-compact-wifi\\compact_wifi_board.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-wifi\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-wifi\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-wifi-lcd\\compact_wifi_board_lcd.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-wifi-lcd\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-wifi-lcd\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\bread-compact-wifi-s3cam\\compact_wifi_board_s3cam.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-wifi-s3cam\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\bread-compact-wifi-s3cam\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\bread-compact-wifi-s3cam\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\chd\\chd-esp32s3-box\\chd_esp32s3_box_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\chd\\chd-esp32s3-box\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\chd\\chd-esp32s3-box\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\chd\\chd-esp32s3-box\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\chd\\chd-esp32s3-box\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\chd\\chd-esp32s3-eye\\chd_esp32s3_eye_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\chd\\chd-esp32s3-eye\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\chd\\chd-esp32s3-eye\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\chd\\chd-esp32s3-eye\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\adc_battery_monitor.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\adc_battery_monitor.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\axp2101.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\axp2101.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\backlight.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\backlight.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\blufi.cpp",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\blufi.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\board.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\board.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\button.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\button.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\camera.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\dual_network_board.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\dual_network_board.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\esp_video.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\esp_video.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\esp32_camera.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\esp32_camera.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\ethernet_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\ethernet_board.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\i2c_device.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\i2c_device.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\knob.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\knob.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\lamp_controller.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\ml307_board.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\ml307_board.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\nt26_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\nt26_board.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\power_save_timer.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\power_save_timer.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\press_to_talk_mcp_tool.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\press_to_talk_mcp_tool.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\rndis_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\rndis_board.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\common\\sleep_timer.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\sleep_timer.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\sy6970.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\sy6970.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\system_reset.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\system_reset.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\wifi_board.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\wifi_board.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\common\\xpower.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-k10\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-k10\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-k10\\df_k10_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-k10\\k10_audio_codec.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-k10\\k10_audio_codec.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-k10\\led_control.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-k10\\led_control.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-k10\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-s3-ai-cam\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-s3-ai-cam\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-s3-ai-cam\\df_s3_ai_cam.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\dfrobot\\df-s3-ai-cam\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\doit-s3-aibox\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\doit-s3-aibox\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\doit-s3-aibox\\doit_s3_aibox.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\doit-s3-aibox\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\du-chatx\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\du-chatx\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\du-chatx\\du-chatx-wifi.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\du-chatx\\power_manager.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\electron_bot_controller.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\electron_bot.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\electron_emoji_display.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\electron_emoji_display.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\movements.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\movements.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\oscillator.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\oscillator.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\otto_icon_font.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\power_manager.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\websocket_control_server.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\electron-bot\\websocket_control_server.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-hi\\adc_pdm_audio_codec.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-hi\\adc_pdm_audio_codec.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-hi\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-hi\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-hi\\emoji_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-hi\\emoji_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-hi\\esp_hi.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-hi\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-mosaico\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-mosaico\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-mosaico\\esp_mosaico.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-mosaico\\README_CN.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-mosaico\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-sensairshuttle\\adc_pdm_audio_codec.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-sensairshuttle\\adc_pdm_audio_codec.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-sensairshuttle\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-sensairshuttle\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-sensairshuttle\\esp-sensairshuttle.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-sensairshuttle\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-sparkbot\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-sparkbot\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-sparkbot\\esp_sparkbot_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-spot\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-spot\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-spot\\esp_spot_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-spot\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-vocat\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-vocat\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-vocat\\esp_vocat.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-vocat\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-vocat\\touch.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-vocat\\assets\\360_360\\emote.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-vocat\\emoji\\battery_connected.eaf",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp-vocat\\emoji\\low_battery.eaf",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-p4-function-ev-board\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-p4-function-ev-board\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-p4-function-ev-board\\esp32-p4-function-ev-board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-p4-function-ev-board\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box\\esp_box_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box-3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box-3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box-3\\esp_box3_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box-3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box-lite\\box_audio_codec_lite.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box-lite\\box_audio_codec_lite.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box-lite\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box-lite\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-box-lite\\esp_box_lite_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-korvo-2-v3.0\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-korvo-2-v3.0\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-korvo-2-v3.0\\esp32s3_korvo2_v3_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-korvo-2-v3.0\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-korvo-2-v3.0-rndis\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-korvo-2-v3.0-rndis\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-korvo-2-v3.0-rndis\\esp32s3_korvo2_v3_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-korvo-2-v3.0-rndis\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board\\esp_io_expander_tca9554.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board\\esp_io_expander_tca9554.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board\\esp_lcd_gc9503.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board\\esp_lcd_gc9503.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board\\esp32-s3-lcd-ev-board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board\\pin_config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board-2\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board-2\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board-2\\esp_lcd_gc9503.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board-2\\esp_lcd_gc9503.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board-2\\esp32-s3-lcd-ev-board-2.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board-2\\pin_config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s3-lcd-ev-board-2\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s31-function-coreboard-1\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s31-function-coreboard-1\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s31-function-coreboard-1\\esp32_s31_function_coreboard_1.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s31-function-coreboard-1\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s31-korvo-1\\bsp_adc_calibration.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s31-korvo-1\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s31-korvo-1\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s31-korvo-1\\esp32_s31_adc_calibration.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s31-korvo-1\\esp32_s31_korvo_1.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\espressif\\esp32-s31-korvo-1\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\folotoy\\ai-passport\\ai_passport_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\folotoy\\ai-passport\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\folotoy\\ai-passport\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\folotoy\\ai-passport\\cw2017_battery_monitor.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\folotoy\\ai-passport\\cw2017_battery_monitor.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\folotoy\\ai-passport\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\freenove-esp32s3-display-2.8-lcd\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\freenove-esp32s3-display-2.8-lcd\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\freenove-esp32s3-display-2.8-lcd\\freenove-esp32s3-display-2.8-lcd.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\freenove-esp32s3-display-2.8-lcd\\ReadMe.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\genjutech-s3-1.54tft\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\genjutech-s3-1.54tft\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\genjutech-s3-1.54tft\\genjutech-s3-1.54tft.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\genjutech-s3-1.54tft\\power_manager.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\guition\\jc4827w543\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\guition\\jc4827w543\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\guition\\jc4827w543\\esp_lcd_nv3041a.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\guition\\jc4827w543\\esp_lcd_nv3041a.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\guition\\jc4827w543\\jc4827w543_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\guition\\jc4827w543\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\hu-087\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\hu-087\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\hu-087\\hu_087_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\hu-087\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\jiuchuan-s3\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\jiuchuan-s3\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\jiuchuan-s3\\esp_lcd_panel_gc9301.c",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\jiuchuan-s3\\esp_lcd_panel_gc9301.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\jiuchuan-s3\\gpio_manager.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\jiuchuan-s3\\jiuchuan_dev_board.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\jiuchuan-s3\\power_controller.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\jiuchuan-s3\\power_manager.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\jiuchuan-s3\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\kevin\\box-2\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\box-2\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\box-2\\kevin_box_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\c3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\c3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\c3\\kevin_c3_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\c3\\led_strip_control.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\c3\\led_strip_control.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\sp-v3-dev\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\sp-v3-dev\\kevin-sp-v3_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\sp-v4-dev\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\sp-v4-dev\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\sp-v4-dev\\kevin-sp-v4_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\yuying-313lcd\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\yuying-313lcd\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\yuying-313lcd\\esp_lcd_gc9503.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\yuying-313lcd\\esp_lcd_gc9503.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\yuying-313lcd\\kevin_yuying_313lcd.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\kevin\\yuying-313lcd\\pin_config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\labplus\\ledong-v2\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\labplus\\ledong-v2\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\labplus\\ledong-v2\\labplus_ledong_v2.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\labplus\\ledong-v2\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\labplus\\mpython-v3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\labplus\\mpython-v3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\labplus\\mpython-v3\\mpython_pro.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\labplus\\mpython-v3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lc-s3-wifi-1.54tft\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lc-s3-wifi-1.54tft\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lc-s3-wifi-1.54tft\\lc-s3-wifi-1.54tft.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lc-s3-wifi-1.54tft\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lc-s3-wifi-1.54tft\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lcdwiki-es3c35p\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lcdwiki-es3c35p\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lcdwiki-es3c35p\\lcdwiki-es3c35p.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lcdwiki-es3c35p\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-robot-pro\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-robot-pro\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-robot-pro\\eda_dog_controller.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-robot-pro\\eda_dog_movements.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-robot-pro\\eda_dog_movements.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-robot-pro\\eda_robot_pro.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-robot-pro\\oscillator.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-robot-pro\\oscillator.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-robot-pro\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-super-bear\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-super-bear\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-super-bear\\eda_super_bear_controller.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-super-bear\\eda_super_bear_movements.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-super-bear\\eda_super_bear_movements.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-super-bear\\eda_super_bear.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-super-bear\\oscillator.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-super-bear\\oscillator.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-super-bear\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-tv-pro\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-tv-pro\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-tv-pro\\eda-tv-pro.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lceda-course-examples\\eda-tv-pro\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lckfb\\szpi-esp32c3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lckfb\\szpi-esp32c3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lckfb\\szpi-esp32c3\\lichuang_c3_dev_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lckfb\\szpi-esp32c3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lckfb\\szpi-esp32s3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lckfb\\szpi-esp32s3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lckfb\\szpi-esp32s3\\lichuang_dev_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-cameraplus-s3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-cameraplus-s3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-cameraplus-s3\\ir_filter_controller.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-cameraplus-s3\\lilygo-t-cameraplus-s3.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-cameraplus-s3\\pin_config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-cameraplus-s3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-cameraplus-s3\\tcamerapluss3_audio_codec.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-cameraplus-s3\\tcamerapluss3_audio_codec.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3\\esp_lcd_gc9d01n.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3\\esp_lcd_gc9d01n.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3\\lilygo-t-circle-s3.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3\\pin_config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3\\tcircles3_audio_codec.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3\\tcircles3_audio_codec.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3-v11\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3-v11\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3-v11\\esp_lcd_gc9d01n.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3-v11\\esp_lcd_gc9d01n.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3-v11\\lilygo-t-circle-s3-v11.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3-v11\\pin_config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-circle-s3-v11\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-p4\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-p4\\hi8561_driver.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-p4\\hi8561_driver.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-p4\\lilygo-t-display-p4.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-p4\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-p4\\rm69a10_driver.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-p4\\rm69a10_driver.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-p4\\t_display_p4_config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-s3-pro-mvsrlora\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-s3-pro-mvsrlora\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-s3-pro-mvsrlora\\lilygo-t-display-s3-pro-mvsrlora.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-s3-pro-mvsrlora\\pin_config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-s3-pro-mvsrlora\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-s3-pro-mvsrlora\\tdisplays3promvsrlora_audio_codec.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\lilygo\\t-display-s3-pro-mvsrlora\\tdisplays3promvsrlora_audio_codec.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atom-echos3r\\atom_echos3r.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atom-echos3r\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atom-echos3r\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atom-echos3r\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atommatrix-echo-base\\atommatrix_echo_base.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atommatrix-echo-base\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atommatrix-echo-base\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atommatrix-echo-base\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3-echo-base\\atoms3_echo_base.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3-echo-base\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3-echo-base\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3-echo-base\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-cam-m12-echo-base\\atoms3r_cam_m12_echo_base.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-cam-m12-echo-base\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-cam-m12-echo-base\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-cam-m12-echo-base\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-echo-base\\atoms3r_echo_base.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-echo-base\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-echo-base\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-echo-base\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-echo-pyramid\\atoms3r_echo_pyramid.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-echo-pyramid\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-echo-pyramid\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\atoms3r-echo-pyramid\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\cardputer-adv\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\cardputer-adv\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\cardputer-adv\\m5stack_cardputer_adv.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\cardputer-adv\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\cardputer-adv\\tca8418_keyboard.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\cardputer-adv\\tca8418_keyboard.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\cardputer-adv\\wifi_config_ui.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\cardputer-adv\\wifi_config_ui.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\core-s3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\core-s3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\core-s3\\cores3_audio_codec.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\core-s3\\cores3_audio_codec.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\core-s3\\m5stack_core_s3.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\core-s3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\corep4\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\corep4\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\corep4\\m5stack_corep4.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\corep4\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\stick-s3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\stick-s3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\stick-s3\\m5stack_stick_s3.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\stick-s3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\stopwatch\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\stopwatch\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\stopwatch\\m5stack_stopwatch.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\stopwatch\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\esp_lcd_st7121.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\esp_lcd_st7121.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\esp_lcd_st7123.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\esp_lcd_st7123.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\m5stack_tab5.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\sdkconfig.tab5",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\tab5_audio_codec.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\m5stack\\tab5\\tab5_audio_codec.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\2p4\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\2p4\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\2p4\\magiclick_2p4_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\2p5\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\2p5\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\2p5\\magiclick_2p5_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\2p5\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\c3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\c3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\c3\\magiclick_c3_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\c3-v2\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\c3-v2\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\magiclick\\c3-v2\\magiclick_c3_v2_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\maza-ai\\esp32-s3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\maza-ai\\esp32-s3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\maza-ai\\esp32-s3\\maza_ai_esp32_s3.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\maza-ai\\esp32-s3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\maza-ai\\esp32-s31\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\maza-ai\\esp32-s31\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\maza-ai\\esp32-s31\\maza_ai_esp32_s31.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\maza-ai\\esp32-s31\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\minsi-k08-dual\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\minsi-k08-dual\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\minsi-k08-dual\\minsi_k08_dual.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\minsi-k08-dual\\power_manager.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\minsi-k08-dual\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\mixgo-nova\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\mixgo-nova\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\mixgo-nova\\mixgo-nova.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\mixgo-nova\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\movecall\\cuican-esp32s3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\cuican-esp32s3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\cuican-esp32s3\\movecall_cuican_esp32s3.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\cuican-esp32s3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\moji-esp32s3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\moji-esp32s3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\moji-esp32s3\\movecall_moji_esp32s3.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\moji-esp32s3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\moji2-esp32c5\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\moji2-esp32c5\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\moji2-esp32c5\\movecall_moji2_esp32s3.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\moji2-esp32c5\\README_zh.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\movecall\\moji2-esp32c5\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-abs-2.0\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-abs-2.0\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-abs-2.0\\customlcddisplay.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-abs-2.0\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-abs-2.0\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-abs-2.0\\xingzhi-abs-2.0.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.85tft-ml307\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.85tft-ml307\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.85tft-ml307\\xingzhi-cube-0.85tft-ml307.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.85tft-wifi\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.85tft-wifi\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.85tft-wifi\\xingzhi-cube-0.85tft-wifi.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.96oled-ml307\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.96oled-ml307\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.96oled-ml307\\xingzhi-cube-0.96oled-ml307.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.96oled-wifi\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.96oled-wifi\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-0.96oled-wifi\\xingzhi-cube-0.96oled-wifi.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-1.54tft-ml307\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-1.54tft-ml307\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-1.54tft-ml307\\xingzhi-cube-1.54tft-ml307.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-1.54tft-wifi\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-1.54tft-wifi\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-1.54tft-wifi\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-cube-1.54tft-wifi\\xingzhi-cube-1.54tft-wifi.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-metal-1.54-wifi\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-metal-1.54-wifi\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-metal-1.54-wifi\\cst816x.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-metal-1.54-wifi\\cst816x.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-metal-1.54-wifi\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-metal-1.54-wifi\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nologo\\xingzhi-metal-1.54-wifi\\xingzhi-metal-1.54-wifi.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nulllab-ai-vox-v3\\ai_vox3_audio_codec.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nulllab-ai-vox-v3\\ai_vox3_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nulllab-ai-vox-v3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nulllab-ai-vox-v3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nulllab-ai-vox-v3\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\nulllab-ai-vox-v3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\oscillator.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\oscillator.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\otto_controller.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\otto_emoji_display.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\otto_emoji_display.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\otto_icon_font.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\otto_movements.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\otto_movements.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\otto_robot.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\power_manager.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\websocket_control_server.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\otto-robot\\websocket_control_server.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\quandong-s3-dev\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\quandong-s3-dev\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\quandong-s3-dev\\HARDWARE_DIFF.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\quandong-s3-dev\\quandong_s3_dev_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\rymcu\\bigsmart\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\rymcu\\bigsmart\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\rymcu\\bigsmart\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\rymcu\\bigsmart\\rymcu_bigsmart_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\sensecap-watcher\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\sensecap-watcher\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\sensecap-watcher\\README_en.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\sensecap-watcher\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\sensecap-watcher\\sensecap_audio_codec.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\sensecap-watcher\\sensecap_audio_codec.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\sensecap-watcher\\sensecap_watcher.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\sensecap-watcher\\sscma_camera.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\sensecap-watcher\\sscma_camera.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\spotpear\\sp-esp32-s3-1.28-box\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\spotpear\\sp-esp32-s3-1.28-box\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\spotpear\\sp-esp32-s3-1.28-box\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\spotpear\\sp-esp32-s3-1.28-box\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\spotpear\\sp-esp32-s3-1.28-box\\sp-esp32-s3-1.28-box.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\spotpear\\sp-esp32-s3-1.54-muma\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\spotpear\\sp-esp32-s3-1.54-muma\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\spotpear\\sp-esp32-s3-1.54-muma\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\spotpear\\sp-esp32-s3-1.54-muma\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\spotpear\\sp-esp32-s3-1.54-muma\\sp-esp32-s3-1.54-muma.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\surfer-c3-1.14tft\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\surfer-c3-1.14tft\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\surfer-c3-1.14tft\\power_manager.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\surfer-c3-1.14tft\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\surfer-c3-1.14tft\\surfer-c3-1.14tft.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\taiji-pi-s3\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\taiji-pi-s3\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\taiji-pi-s3\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\taiji-pi-s3\\taiji_pi_s3.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c5-touch-lcd-1.69\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c5-touch-lcd-1.69\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c5-touch-lcd-1.69\\esp32-c5-touch-lcd-1.69.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c5-touch-lcd-1.69\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-epaper-1.54\\board_power_bsp.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-epaper-1.54\\board_power_bsp.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-epaper-1.54\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-epaper-1.54\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-epaper-1.54\\custom_lcd_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-epaper-1.54\\custom_lcd_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-epaper-1.54\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-epaper-1.54\\waveshare-c6-epaper-1.54.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-0.85\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-0.85\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-0.85\\esp32-c6-lcd-0.85.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-0.85\\led_strip_control.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-0.85\\led_strip_control.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-0.85\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-0.85\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-1.69\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-1.69\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-1.69\\esp32-c6-lcd-1.69.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-1.69\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-lcd-1.69\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.32\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.32\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.32\\esp32-c6-touch-amoled-1.32.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.32\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.43\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.43\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.43\\esp32-c6-touch-amoled-1.43.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.43\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.8\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.8\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.8\\esp32-c6-touch-amoled-1.8.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-1.8\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-2.06\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-2.06\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-2.06\\esp32-c6-touch-amoled-2.06.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-2.06\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-2.16\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-2.16\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-2.16\\esp32-c6-touch-amoled-2.16.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-amoled-2.16\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-lcd-1.54\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-lcd-1.54\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-lcd-1.54\\esp32-c6-touch-lcd-1.54.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-lcd-1.54\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-lcd-1.54\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-lcd-1.83\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-lcd-1.83\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-lcd-1.83\\esp32-c6-touch-lcd-1.83.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-c6-touch-lcd-1.83\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-nano\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-nano\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-nano\\esp32-p4-nano.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-nano\\lcd_init_cmds.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-nano\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-wifi6-touch-lcd\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-wifi6-touch-lcd\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-wifi6-touch-lcd\\esp32-p4-wifi6-touch-lcd.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-wifi6-touch-lcd\\lcd_init_cmds.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-wifi6-touch-lcd\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-wifi6-touch-lcd-3.5\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-wifi6-touch-lcd-3.5\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-wifi6-touch-lcd-3.5\\esp32-p4-wifi6-touch-lcd-3.5.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-p4-wifi6-touch-lcd-3.5\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-audio-board\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-audio-board\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-audio-board\\esp_lcd_jd9853.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-audio-board\\esp_lcd_jd9853.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-audio-board\\esp32-s3-audio_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-audio-board\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-cam\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-cam\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-cam\\esp32-s3-cam-xxxx.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-cam\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-1.54\\board_power_bsp.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-1.54\\board_power_bsp.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-1.54\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-1.54\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-1.54\\custom_lcd_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-1.54\\custom_lcd_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-1.54\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-1.54\\waveshare-s3-epaper-1.54.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-3.97\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-3.97\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-3.97\\custom_lcd_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-3.97\\custom_lcd_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-3.97\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-epaper-3.97\\waveshare-s3-epaper-3.97.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-lcd-0.85\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-lcd-0.85\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-lcd-0.85\\esp32-s3-lcd-0.85.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-lcd-0.85\\led_strip_control.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-lcd-0.85\\led_strip_control.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-lcd-0.85\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-lcd-0.85\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rgb-matrix\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rgb-matrix\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rgb-matrix\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rgb-matrix\\rgb_matrix_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rgb-matrix\\rgb_matrix_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rgb-matrix\\rgb_matrix_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rlcd-4.2\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rlcd-4.2\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rlcd-4.2\\custom_lcd_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rlcd-4.2\\custom_lcd_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rlcd-4.2\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-rlcd-4.2\\waveshare-s3-rlcd-4.2.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.32\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.32\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.32\\esp32-s3-touch-amoled-1.32.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.32\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.43c\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.43c\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.43c\\esp32-s3-touch-amoled-1.43c.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.43c\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.75\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.75\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.75\\esp32-s3-touch-amoled-1.75.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.75\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.8\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.8\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.8\\esp32-s3-touch-amoled-1.8.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.8-v2\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.8-v2\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-1.8-v2\\esp32-s3-touch-amoled-1.8-v2.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-2.06\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-2.06\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-2.06\\esp32-s3-touch-amoled-2.06.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-2.06\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-2.16\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-2.16\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-2.16\\esp32-s3-touch-amoled-2.16.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-amoled-2.16\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.46\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.46\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.46\\esp32-s3-touch-lcd-1.46.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.46\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.54\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.54\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.54\\esp32-s3-touch-lcd-1.54.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.54\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.54\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.83\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.83\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.83\\esp32-s3-touch-lcd-1.83.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.83\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85\\esp32-s3-touch-lcd-1.85.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85b\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85b\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85b\\esp32-s3-touch-lcd-1.85b.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85b\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85c\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85c\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85c\\esp32-s3-touch-lcd-1.85c.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-1.85c\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49\\custom_lcd_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49\\custom_lcd_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49\\waveshare-s3-touch-lcd-3.49.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49-v2\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49-v2\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49-v2\\custom_lcd_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49-v2\\custom_lcd_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49-v2\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.49-v2\\waveshare-s3-touch-lcd-3.49-v2.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.5\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.5\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.5\\esp32-s3-touch-lcd-3.5.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.5\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.5b\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.5b\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.5b\\custom_lcd_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.5b\\custom_lcd_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.5b\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-3.5b\\waveshare-s3-touch-lcd-3.5b.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-4.3c\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-4.3c\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-4.3c\\esp32_s3_touch_lcd_4.3c.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-4.3c\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-4b\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-4b\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-4b\\esp32-s3-touch-lcd-4b.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-4b\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-7c\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-7c\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-7c\\esp32_s3_touch_lcd_7c.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-7c\\waveshare_audio_codec.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-s3-touch-lcd-7c\\waveshare_audio_codec.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-touch-lcd-3.5\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-touch-lcd-3.5\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-touch-lcd-3.5\\esp32-touch-lcd-3.5.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\waveshare\\esp32-touch-lcd-3.5\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wdmomo\\esp32-cgc\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wdmomo\\esp32-cgc\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wdmomo\\esp32-cgc\\esp32_cgc_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wdmomo\\esp32-cgc\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wdmomo\\esp32-cgc-144\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wdmomo\\esp32-cgc-144\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wdmomo\\esp32-cgc-144\\esp32_cgc_144_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wdmomo\\esp32-cgc-144\\power_manager_lite.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wdmomo\\esp32-cgc-144\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wdmomo\\esp32-cgc-144\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wk-esp32s3-dev\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wk-esp32s3-dev\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wk-esp32s3-dev\\esp_lcd_ili9486.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wk-esp32s3-dev\\esp_lcd_ili9486.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wk-esp32s3-dev\\esp_lcd_nv3030b.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wk-esp32s3-dev\\esp_lcd_nv3030b.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wk-esp32s3-dev\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\wk-esp32s3-dev\\wk-esp32s3-dev.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3\\xmini_c3_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3-4g\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3-4g\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3-4g\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3-4g\\xmini_c3_4g_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3-v3\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3-v3\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3-v3\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xmini\\c3-v3\\xmini_c3_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xorigin\\aipi-lite\\aipi-lite.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xorigin\\aipi-lite\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xorigin\\aipi-lite\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xorigin\\aipi-lite\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xorigin\\aipi-lite\\README_en.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\xorigin\\aipi-lite\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\yunliao-s3\\config.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\yunliao-s3\\config.json",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\yunliao-s3\\power_manager.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\yunliao-s3\\power_manager.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\yunliao-s3\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\yunliao-s3\\yunliao_s3.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\board_power_bsp.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\board_power_bsp.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\charge_status.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\charge_status.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\custom_lcd_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\custom_lcd_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\i2c_power_hook.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\rtc_pcf8563.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\rtc_pcf8563.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\sleep_manager_compat.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\zectrix_nfc.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\zectrix_nfc.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zectrix\\zectrix-s3-epaper-4.2\\zectrix-s3-epaper-4.2.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\1.54tft-ml307\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\1.54tft-ml307\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\1.54tft-ml307\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\1.54tft-ml307\\zhengchen-1.54tft-ml307.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\1.54tft-wifi\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\1.54tft-wifi\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\1.54tft-wifi\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\1.54tft-wifi\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\1.54tft-wifi\\zhengchen_lcd_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\1.54tft-wifi\\zhengchen-1.54tft-wifi.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam\\mcp_controller.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam\\zhengchen_cam_board.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam-ml307\\config.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam-ml307\\config.json",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam-ml307\\mcp_controller.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam-ml307\\power_manager.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam-ml307\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\boards\\zhengchen\\cam-ml307\\zhengchen_cam_board_ml307.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\display.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\display.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\emote_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\emote_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\lcd_display.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lcd_display.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_no_psram_pool.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\lvgl_psram_pool.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\oled_display.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\oled_display.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\text_glyph.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\text_glyph.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\epd_display\\epd_display_2_9.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\epd_display\\epd_display_2_9.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\epd_display\\epd_display.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\epd_display\\epd_display.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\dynamic_glyph_cache.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\dynamic_glyph_cache.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\emoji_collection.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\emoji_collection.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\lvgl_display.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\lvgl_display.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\lvgl_font.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\lvgl_font.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\lvgl_image.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\lvgl_image.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\lvgl_theme.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\lvgl_theme.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\gif\\gifdec_mve.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\gif\\gifdec.c",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\gif\\gifdec.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\gif\\LICENSE.txt",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\gif\\lvgl_gif.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\gif\\lvgl_gif.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\gif\\README.md",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\jpg\\image_to_jpeg.cpp",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\jpg\\image_to_jpeg.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\jpg\\jpeg_to_image.c",
+    "action": "add"
+  },
+  {
+    "path": "main\\display\\lvgl_display\\jpg\\jpeg_to_image.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\led\\circular_strip.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\led\\circular_strip.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\led\\gpio_led.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\led\\gpio_led.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\led\\led.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\led\\single_led.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\led\\single_led.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\notify\\notify_player.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\notify\\notify_player.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\protocols\\mqtt_protocol.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\protocols\\mqtt_protocol.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\protocols\\protocol.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\protocols\\protocol.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\protocols\\text_glyph_payload.cc",
+    "action": "add"
+  },
+  {
+    "path": "main\\protocols\\text_glyph_payload.h",
+    "action": "add"
+  },
+  {
+    "path": "main\\protocols\\websocket_protocol.cc",
+    "action": "upgrade"
+  },
+  {
+    "path": "main\\protocols\\websocket_protocol.h",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\audio_debug_server.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\build_default_assets.py",
+    "action": "add"
+  },
+  {
+    "path": "scripts\\build.py",
+    "action": "add"
+  },
+  {
+    "path": "scripts\\download_github_runs.py",
+    "action": "add"
+  },
+  {
+    "path": "scripts\\gen_lang.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\mp3_to_ogg.sh",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\release.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\versions.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\ci\\blufi.sdkconfig.defaults",
+    "action": "add"
+  },
+  {
+    "path": "scripts\\ci\\representative-variants.json",
+    "action": "add"
+  },
+  {
+    "path": "scripts\\Image_Converter\\lvgl_tools_gui.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\Image_Converter\\LVGLImage.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\Image_Converter\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\Image_Converter\\requirements.txt",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\ogg_converter\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\ogg_converter\\xiaozhi_ogg_converter.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\p3_tools\\batch_convert_gui.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\p3_tools\\convert_audio_to_p3.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\p3_tools\\convert_p3_to_audio.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\p3_tools\\p3_gui_player.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\p3_tools\\play_p3.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\p3_tools\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\p3_tools\\requirements.txt",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\p3_tools\\img\\img.png",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\spiffs_assets\\build_all.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\spiffs_assets\\build.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\spiffs_assets\\pack_model.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\spiffs_assets\\README.md",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\spiffs_assets\\spiffs_assets_gen.py",
+    "action": "upgrade"
+  },
+  {
+    "path": "scripts\\tests\\test_build_default_assets.py",
+    "action": "add"
+  },
+  {
+    "path": "scripts\\tests\\test_build.py",
+    "action": "add"
+  },
+  {
+    "path": "scripts\\tests\\test_ci_selection.py",
+    "action": "add"
+  },
+  {
+    "path": "scripts\\tests\\test_esp_vocat_i2c.py",
+    "action": "add"
+  },
+  {
+    "path": "scripts\\tests\\test_ogg_demuxer.py",
+    "action": "add"
+  },
+  {
+    "path": "scripts\\tests\\test_release.py",
+    "action": "add"
+  }
+]

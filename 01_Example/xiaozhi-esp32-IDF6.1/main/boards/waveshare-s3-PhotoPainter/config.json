@@ -1,0 +1,10 @@
+{
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "esp-s3-PhotoPainter",
+            "sdkconfig_append": []
+        }
+    ],
+    "type": "waveshare-s3-PhotoPainter"
+}

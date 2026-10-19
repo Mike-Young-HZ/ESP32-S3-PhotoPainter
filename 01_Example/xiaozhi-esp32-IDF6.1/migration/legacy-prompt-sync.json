@@ -1,0 +1,8 @@
+{
+  "authorization": "用户要求将旧版本提示词同步修改，2026-10-19；覆盖之前原工程不改动要求，仅限此次提示词同步。",
+  "file": "E:\\ESP32\\ESP32-S3-PhotoPainter\\ESP32-S3-PhotoPainter-main\\01_Example\\xiaozhi-esp32\\main\\boards\\waveshare-s3-PhotoPainter\\esp32-s3-PhotoPainter.cc",
+  "before_sha256": "3cd4bc8cd0665a31588c9be30f9df3825c35b17a82abe7bb6232abd65c1a1235",
+  "after_sha256": "5b662c491e8654de7e5705dbaa6f51c0a133d1c8a02ac39ac468b62e8347542c",
+  "validation": "仅工具描述及三工具返回文案改变；工具名、参数、事件触发、条件与其他执行逻辑保持一致；原CRLF保留。",
+  "baseline_note": "迁移时source-manifest.json保持历史基线，不因本次授权修改而重写。未重新编译或烧录旧工程。"
+}

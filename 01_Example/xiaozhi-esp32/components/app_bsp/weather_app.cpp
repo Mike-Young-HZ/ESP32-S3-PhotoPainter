@@ -70,6 +70,34 @@ WeatherData_t* WeatherPort::WeatherPort_DecodingSring(const char *jsonstr) {
         ESP_LOGE(TAG, "Analysis failed");
         return NULL;
     }
+    // An API error can still be valid JSON. Validate before touching the
+    // reusable weather data, so a failed manual refresh leaves it intact.
+    const char *time = doc["time"];
+    const char *humidity = doc["data"]["shidu"];
+    if (time == nullptr || humidity == nullptr ||
+        strlen(humidity) >= sizeof(WeatherData->td_RH)) {
+        ESP_LOGE(TAG, "Missing or invalid weather metadata");
+        return NULL;
+    }
+    int year, month_check, day_check, hour, minute, second;
+    if (sscanf(time, "%d-%d-%d %d:%d:%d", &year, &month_check,
+               &day_check, &hour, &minute, &second) != 6) {
+        return NULL;
+    }
+    for (int i = 0; i < 4; ++i) {
+        for (const char *key : {"high", "low", "fx", "week", "type", "ymd"}) {
+            const char *value = doc["data"]["forecast"][i][key];
+            if (value == nullptr || value[0] == '\0') {
+                ESP_LOGE(TAG, "Missing forecast field %s for day %d", key, i);
+                return NULL;
+            }
+            if ((!strcmp(key, "fx") || !strcmp(key, "week") || !strcmp(key, "type")) &&
+                strlen(value) >= sizeof(WeatherData->td_fx)) {
+                ESP_LOGE(TAG, "Forecast field too long: %s", key);
+                return NULL;
+            }
+        }
+    }
     int         wendu_high = 0;
     int         wendu_low  = 0;
     int         month      = 0;
@@ -83,7 +111,7 @@ WeatherData_t* WeatherPort::WeatherPort_DecodingSring(const char *jsonstr) {
   	int s_hour;
   	int s_minute;
   	int s_second;
-    sscanf(str, "%[^ ]", WeatherData->calendar); /* Time retrieval - accurate to the day */
+    sscanf(str, "%32[^ ]", WeatherData->calendar); /* Time retrieval - accurate to the day */
     
     sscanf(str, "%d-%d-%d %d:%d:%d", &s_year, &s_month,&s_day, &s_hour,&s_minute, &s_second);
     snprintf(WeatherData->td_weather, 19, "%02d-%02d", s_month, s_day);

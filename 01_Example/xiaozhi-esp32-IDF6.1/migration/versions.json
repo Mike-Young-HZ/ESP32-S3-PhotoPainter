@@ -1,0 +1,12 @@
+{
+  "xiaozhi": {
+    "tag": "v2.5.2",
+    "commit": "49b4380b3faa0ceadd28a3e78aaf0f311c46c57e"
+  },
+  "idf": {
+    "version": "6.1.0",
+    "commit": "fff9895c82d744c7237be8847347bdd1b07c6643"
+  },
+  "active_dependencies": "migration/idf61-project/dependencies.lock",
+  "active_build": "build-idf61"
+}

@@ -41,25 +41,8 @@ int img_loopCount = 0;                // Loop count
 
 void xiaozhi_init_received(const char *arg1) 
 {
-    static uint8_t Oneime = 0;
-    if (Oneime)
-        return;
-    if (strstr(arg1, "版本") != NULL) {
-        Oneime          = 1;
-        const char *str = get_weather_data();
-        //ESP_LOGW("xiaozhi_init","Weather data : %s",str);
-        xEventGroupSetBits(Red_led_Mode_queue, set_bit_button(0));
-        if(str == NULL) {
-            ESP_LOGE("xiaozhi_init","json decoding failed");
-            return;
-        }
-        WeatherData = WeaPort.WeatherPort_DecodingSring(str);   
-        if(WeatherData == NULL) {
-            ESP_LOGE("xiaozhi_init","WeatherData is NULL");
-            return;
-        }     
-        xEventGroupSetBits(epaper_groups, set_bit_button(0));
-    }
+    // Startup status notifications must not request weather or refresh the panel.
+    (void)arg1;
 }
 
 void xiaozhi_application_received(const char *str) {
@@ -90,12 +73,26 @@ static void gui_user_Task(void *arg) {
     ePaperDisplay.EPD_Init();
     for (;;) {
         EventBits_t even = xEventGroupWaitBits(epaper_groups, set_bit_all, pdTRUE, pdFALSE, portMAX_DELAY); 
+        if (get_bit_button(even, 0)) {
+            // Only the refreshWeather MCP tool requests this event. Fetch on the
+            // GUI worker, before taking the panel lock, so MCP remains responsive.
+            const char *json = get_weather_data();
+            if (json == NULL) {
+                ESP_LOGW(TAG, "Weather request failed; keeping the current image");
+                continue;
+            }
+            // The decoder owns and frees the HTTP response buffer.
+            WeatherData = WeaPort.WeatherPort_DecodingSring(json);
+            if (WeatherData == NULL) {
+                ESP_LOGW(TAG, "Weather response invalid; keeping the current image");
+                continue;
+            }
+        }
         if (pdTRUE == xSemaphoreTake(epaper_gui_semapHandle, 2000)) {
             xEventGroupSetBits(Green_led_Mode_queue, set_bit_button(6));
             Green_led_arg = 1;
             is_ai_img     = 0;           
             if (get_bit_button(even, 0)) {
-                vTaskDelay(pdMS_TO_TICKS(3000));  
                 char      *strURL = NULL;
                 WeatherAqi_t aqi_data;
                 uint16_t   x_or = 0;

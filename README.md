@@ -7,11 +7,72 @@
 - 固件烧录说明链接: [前往点击展开浏览](https://www.waveshare.net/wiki/ESP32-S3-PhotoPainter#.E7.83.A7.E5.BD.95.E5.9B.BA.E4.BB.B6.E8.AF.B4.E6.98.8E)
 - Firmware burning instructions link: [Click here to expand and view](https://www.waveshare.com/wiki/ESP32-S3-PhotoPainter#Firmware_Flashing_Instructions)
 
+## Project versions / 工程版本
+
+| Folder / 目录 | ESP-IDF | Xiaozhi core / 小智核心 | Build directory / 构建目录 |
+| --- | --- | --- | --- |
+| [`01_Example/xiaozhi-esp32`](01_Example/xiaozhi-esp32) | 5.5.2 | 2.0.1 | `build` |
+| [`01_Example/xiaozhi-esp32-IDF6.1`](01_Example/xiaozhi-esp32-IDF6.1) | 6.1 | 2.5.2 | `build-idf61` |
+
+The original example folder contains the modified IDF 5.5.2 project. The additional folder contains the IDF 6.1 port. Existing source filenames and internal paths are retained. Build caches and downloaded `managed_components` are omitted; ESP-IDF Component Manager downloads dependencies on the first build.
+
+原示例目录放置修改后的 IDF 5.5.2 工程，新增目录放置 IDF 6.1 移植工程。保留各工程已有源码文件名和内部层级；不包含构建缓存及自动下载的 `managed_components`，首次编译需联网获取依赖。
+
+Activate the matching ESP-IDF environment first, then run the commands below from the repository root. / 先激活对应版本的 ESP-IDF 环境，再在仓库根目录执行：
+
+```powershell
+# ESP-IDF 5.5.2
+idf.py -C ./01_Example/xiaozhi-esp32 -B ./01_Example/xiaozhi-esp32/build build
+
+# ESP-IDF 6.1
+idf.py -C ./01_Example/xiaozhi-esp32-IDF6.1/migration/idf61-project -B ./01_Example/xiaozhi-esp32-IDF6.1/build-idf61 build
+```
+
+To flash, replace the final `build` with `flash monitor`; optionally add `-p COM20` before it, using your actual port. The IDF 6.1 build also generates matching Flash assets, which are included by `flash`.
+
+烧录时将末尾的 `build` 替换为 `flash monitor`；可在前面添加 `-p COM20` 指定实际串口。IDF 6.1 的 `flash` 同时烧录配套 Flash 语音资源。先退出占用串口的监视器。
+
+Both modified versions were compiled in the original development workspace; this repository copy was checked file-by-file and has not been rebuilt or flashed in its new location. `02_SDCARD` remains the shared SD resource directory. `03_Firmware` contains the two modified merged firmware images listed below.
+
+两套修改版已在原开发目录编译通过；本次移入仓库逐文件核对，尚未在新位置重新编译或烧录。`02_SDCARD` 仍为共用 SD 卡资源；`03_Firmware` 放置下表所列的两份修改版集合固件。
+
+See [IDF 6.1 code and operation documentation / 代码与操作说明](01_Example/xiaozhi-esp32-IDF6.1/代码分析与完整操作说明.md) and [refresh behavior / 图片刷新说明](01_Example/xiaozhi-esp32-IDF6.1/migration/refresh-fix-report.md). Paths in older migration audit records refer to the original development workspace. Some local helper scripts have machine-specific environment paths; the commands above use your activated environment.
+
+历史迁移审计记录中的路径指向原开发目录；部分辅助脚本含本机环境路径，其他电脑建议使用上述已激活环境下的构建命令。
+
+## Merged firmware / 集合固件
+
+| ESP-IDF | File / 文件 | Flash address / 烧录地址 |
+| --- | --- | --- |
+| 5.5.2 | [ESP32-S3-PhotoPainter-IDF5.5.2.bin](03_Firmware/ESP32-S3-PhotoPainter-IDF5.5.2.bin) | `0x0` |
+| 6.1 | [ESP32-S3-PhotoPainter-IDF6.1.bin](03_Firmware/ESP32-S3-PhotoPainter-IDF6.1.bin) | `0x0` |
+
+Both files were merged from the previously compiled projects and verified against their original SHA-256 hashes. Select ESP32-S3, 16MB Flash, DIO, 80MHz and write the selected BIN at `0x0`. The IDF 6.1 merged image also includes the matching Flash assets.
+
+两个文件均来自此前编译并校验的集合固件，复制后 SHA-256 一致。选择 ESP32-S3、16MB Flash、DIO、80MHz，将所选 BIN 从 `0x0` 写入；IDF 6.1 集合固件已包含配套 Flash 语音资源。
+
+Merged-image gaps are filled with `0xFF`, so flashing these files overwrites NVS settings and requires Wi-Fi provisioning again. To preserve NVS, use the project's segmented `idf.py flash` instead. SD card resources are separate.
+
+集合 BIN 的间隙填充为 `0xFF`，烧录会覆盖 NVS 设置，需要重新配网。需要保留 NVS 时使用工程的分段 `idf.py flash`；SD 卡资源仍需单独准备。
+
 ## Model Selection
+
+### [Local update] 2026/10/19
+- Both modified projects use Volcano Ark Seedream 5.0 Flash, requesting 1280×720 JPEG images before resizing and six-color dithering. Configure the model ID available to your account in the SD AI settings. Unsupported `sequential_image_generation` and `stream` request parameters have been removed.
+- The 4.0 model listed below belongs to the historical upstream release.
+
 ### [1.5.0] 2026/05/20
 - Select Volcano Ark Model, Model: Doubao-Seedream-4.0
 
 ## Change log
+
+### [Local update] 2026/10/19
+- Retain the IDF 5.5.2 project in `01_Example/xiaozhi-esp32` and add the IDF 6.1 / Xiaozhi 2.5.2 port in `01_Example/xiaozhi-esp32-IDF6.1`.
+- Both versions fetch weather only on an explicit weather request, with no automatic startup weather fetch. Tool descriptions distinguish weather, SD image selection and image generation; asynchronous replies indicate submission rather than completion.
+- IDF 6.1 additionally supports redrawing the current in-memory frame without a weather request or image generation. The IDF 5.5.2 version has no separate current-frame redraw tool; ambiguous image-refresh requests require clarification.
+- Preserve the original modes, buttons, LEDs and image-processing workflow. The IDF 6.1 port bridges Wi-Fi credentials between AI provisioning and network mode, and losslessly compresses mode prompts to fit the original partitions.
+- Physical device validation and cloud-model instruction following still require testing. The historical changelog below is retained.
+
 
 ### [1.5.0] 2026/05/20
 - Mainly updated large models and re-adapted AI image generation based on large models
@@ -54,10 +115,23 @@
 
 ## 大模型选择
 
+### [本地更新] 2026/10/19
+- 两套修改版均使用火山方舟 Seedream 5.0 Flash，生成 1280×720 JPEG 后缩放并执行六色抖动。请在 SD 卡 AI 配置中填写账号实际可用的模型 ID；请求已移除不支持的 `sequential_image_generation`、`stream` 参数。
+- 下方 4.0 模型为官方历史版本记录。
+
+
 ### [1.5.0] 2026/05/20
 - 选择火山方舟模型,模型选择:Doubao-Seedream-4.0
 
 ## 更新日志
+
+### [本地更新] 2026/10/19
+- 原 `01_Example/xiaozhi-esp32` 放置修改后的 IDF 5.5.2 工程；新增 `01_Example/xiaozhi-esp32-IDF6.1`，使用 IDF 6.1 和小智 2.5.2 核心。
+- 两个版本均取消开机自动获取天气，仅按明确的天气请求获取；区分天气、SD 卡切图和 AI 生图，异步回复仅表示请求已提交，不提前宣称完成。
+- IDF 6.1 版新增当前内存画面重刷，不联网更新天气、不生图；本次开机尚无有效画面时提示先显示图片。IDF 5.5.2 版没有独立重刷工具，图片刷新意图不明确时先询问。
+- 保留原模式、按键、LED 和图片处理方式。IDF 6.1 版兼容新版配网信息与原网络模式，并无损压缩模式提示音以适配原分区。
+- 实机操作和云端 AI 对提示词的遵循仍需验证，以下官方历史更新日志保留。
+
 
 ### [1.5.0] 2026/05/20
 - 主要针对大模型更新,重新适配大模型AI生图

@@ -1,0 +1,33 @@
+# PhotoPainter components contain cyclic callbacks; retain their objects for IDF 6 linking.
+idf_component_register(WHOLE_ARCHIVE
+
+    SRCS
+    "ai_app.cpp"
+    "imgdecode_app.cpp"
+    "client_app.c"
+    "server_app.cpp"
+    "./list_src/list_iterator.c"
+    "./list_src/list_node.c"
+    "./list_src/list.c"
+    "weather_app.cpp"
+    "./jpg_src/image_io.c"
+    "./jpg_src/test_decoder.c"
+    PRIV_REQUIRES
+    user_app_bsp
+    espressif__esp_new_jpeg 
+    espressif__mdns
+    esp_wifi
+    esp_http_server
+    espressif__cjson
+    REQUIRES
+    esp_http_client
+    port_bsp
+    espressif__libpng
+    INCLUDE_DIRS
+    "./" 
+    "./jpg_src"
+    "./json_inc"
+    "./list_src"
+    EMBED_TXTFILES 
+    "./certs/ark_vol.pem"
+    "./certs/volces_chain.pem")
