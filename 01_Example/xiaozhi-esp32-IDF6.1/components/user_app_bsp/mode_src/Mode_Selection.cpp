@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <stdint.h>
 #include <string.h>
 #include <esp_heap_caps.h>
 #include <nvs_flash.h>
+#include <driver/gpio.h>
 #include <driver/rtc_io.h>
 #include "user_app.h"
 #include "button_bsp.h"
@@ -10,6 +12,31 @@
 CodecPort *AudioPort = NULL;
 
 EventGroupHandle_t audio_groups;
+
+// Mode 4 has no PCM asset. 200 ms, 16 kHz, stereo, signed 16-bit, amplitude 8000.
+static int16_t generated_mode_prompt_sample(int frame) {
+    static const int16_t cycle[16] = {
+        0, 3061, 5657, 7391, 8000, 7391, 5657, 3061,
+        0, -3061, -5657, -7391, -8000, -7391, -5657, -3061,
+    };
+    return cycle[frame & 15];
+}
+
+static void play_generated_mode_prompt(void) {
+    const int total_frames = 16000 * 200 / 1000;
+    const int frames_per_write = 64;
+    int16_t samples[128];
+    int frame = 0;
+    do {
+        for (int i = 0; i < frames_per_write; ++i) {
+            int16_t sample = generated_mode_prompt_sample(frame + i);
+            samples[i * 2]     = sample;
+            samples[i * 2 + 1] = sample;
+        }
+        AudioPort->Codec_PlayBackWrite(samples, 256);
+        frame += frames_per_write;
+    } while ((frame < total_frames) && gpio_get_level(GPIO_NUM_4));
+}
 
 static void key1_button_user_Task(void *arg) {
     esp_err_t ret;
@@ -34,6 +61,10 @@ static void key1_button_user_Task(void *arg) {
                     ret = nvs_set_u8(my_handle, "PhotPainterMode", 0x03);
                     ESP_ERROR_CHECK(ret);
                     vTaskDelay(pdMS_TO_TICKS(2));
+                } else if (Mode == 4) {
+                    ret = nvs_set_u8(my_handle, "PhotPainterMode", 0x05);
+                    ESP_ERROR_CHECK(ret);
+                    vTaskDelay(pdMS_TO_TICKS(2));
                 }
                 ret = nvs_set_u8(my_handle, "Mode_Flag", 0x01);
                 ESP_ERROR_CHECK(ret);
@@ -54,7 +85,7 @@ static void key1_button_user_Task(void *arg) {
             }
         } else if (get_bit_button(even, 0)) { 
             Mode++;
-            if (Mode > 3) {
+            if (Mode > 4) {
                 Mode = 1;
             }
             if (Mode == 1) {
@@ -63,6 +94,8 @@ static void key1_button_user_Task(void *arg) {
                 xEventGroupSetBits(audio_groups, set_bit_button(2));
             } else if (Mode == 3) {
                 xEventGroupSetBits(audio_groups, set_bit_button(3));
+            } else if (Mode == 4) {
+                xEventGroupSetBits(audio_groups, set_bit_button(4));
             }
         }
     }
@@ -81,6 +114,12 @@ static void audio_user_Task(void *arg) {
             value = 2;
         } else if (get_bit_button(even, 3)) {
             value = 3;
+        } else if (get_bit_button(even, 4)) {
+            value = 4;
+        }
+        if (value == 4) {
+            play_generated_mode_prompt();
+            continue;
         }
         int      bytes_write = 0;
         int      bytes_sizt  = AudioPort->Codec_GetMusicSizt(value);

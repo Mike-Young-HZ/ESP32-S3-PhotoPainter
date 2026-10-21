@@ -6,7 +6,9 @@ idf_component_register(WHOLE_ARCHIVE
   "mode_src/Network_mode.cpp"
   "mode_src/Basic_mode.cpp" 
   "mode_src/Mode_Selection.cpp"
-  "user_app.cpp" 
+  "mode_src/Daily_mode.cpp"
+  "user_app.cpp"
+  "daily_photo.cpp"
   PRIV_REQUIRES 
   driver        
   nvs_flash
@@ -14,6 +16,9 @@ idf_component_register(WHOLE_ARCHIVE
   main
   codec_board
   pmicpower
+  esp_http_client
+  esp_netif
+  mbedtls
   REQUIRES
   app_bsp
   port_bsp

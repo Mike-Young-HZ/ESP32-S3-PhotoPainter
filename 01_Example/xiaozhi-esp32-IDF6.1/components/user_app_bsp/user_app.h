@@ -35,6 +35,7 @@ extern SemaphoreHandle_t ai_img_while_semap;
 
 void User_Basic_mode_app_init(void);
 void User_Network_mode_app_init(void);
+void User_Daily_mode_app_init(void);
 void Mode_Selection_Init(void);
 uint8_t Get_CurrentlyNetworkMode(void);
 // Queue an offline redraw of the current boot framebuffer.
